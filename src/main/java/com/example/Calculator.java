@@ -20,4 +20,10 @@ public class Calculator {
     public int subtract(int x, int y) {
         return x - y;
     }
+    
+    // パラメータ化で使用
+    // 奇数ならtrue、偶数ならfalseを返すメソッド
+    public boolean isOdd(int x) {
+        return x % 2 != 0;
+    }
 }
